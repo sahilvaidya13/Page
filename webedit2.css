@@ -1,0 +1,252 @@
+*{
+	margin:0px ; 
+	padding: 0px ;
+}
+.bgimg{
+	background-image: url('bch.jpg') ;
+	width: 100% ;
+	height: 85vh ;
+	background-size: 100% 100% ;
+}
+.menu{
+	width: 100% ;
+	height: 80px ;
+}
+
+.name{
+	width: 25% ;
+	line-height: 80px ;
+	float: left ;
+}
+.name h4{
+	padding-left: 60px;
+	color: white ;
+	font-family: 'Poppins', sans-serif;
+	word-spacing: 5px ;
+	font-size: 22px ;
+}
+.rightmenu{
+	width: 75% ;
+	float: right ;
+	height: 80px ;
+}
+.rightmenu ul{
+	margin-left: 400px ;
+}
+.rightmenu ul li{
+	font-family: 'Poppins', sans-serif;
+	font-weight: lighter;
+	display: inline-block;
+	list-style: none;
+	color: white ;
+	line-height: 80px ;
+	margin-left: 40px ;
+}
+.matter{
+	margin-top: 70px ;
+}
+h1{
+	color: white ;
+	font-size: 60px ;
+	font-family: 'Nunito Sans', sans-serif;
+	margin-left: 70px ;
+}
+h3{
+	color: white ;
+	font-size: 40px ;
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 400 ;
+	margin-left: 70px ;
+}
+h5{
+	color: white ;
+	font-size: 20px ;
+	font-weight: lighter;
+	margin-left: 75px ;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.mainbar{
+	position: relative;
+	top: 20px ;
+	left: 80px ;
+	margin-right: 100px ;
+	display: flex;
+	flex-basis: 100%;
+}
+.ex{
+	padding: 15px 40px;
+	text-align: left;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 12px ;
+	font-weight: bold ;
+	border:none;
+	border-radius left : 2px ;
+
+
+	}
+.whre{
+	padding: 15px 40px;
+	text-align: left;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 12px ;
+	font-weight: bold; 
+	border:none;
+	border-radius left : 2px ;
+}
+
+button{
+	padding: 15px 36px  ;
+	color: white ;
+	background-color: #e75480 ;
+	text-align: center;
+	border:none;
+	border-radius: 4px ;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.mainb {
+	display: flex ;
+	margin-top: 150px ;
+	
+
+}
+
+.b1,.b2,.b3,.b4{
+	background-color: white ;
+	flex: 1 ;
+}
+.mainb div{
+	
+	margin: 10px ;
+}
+
+.b1, .b2 ,.b3 ,.b4 {
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+
+.img2{
+	 width: 250px ;
+	 height: 250px ;
+	 
+}
+.p1 ,.p2,.p3,.p4 {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 300 ;
+}
+.img3{
+	width: 250px ;
+	height: 250px;
+	
+}
+.img4{
+	width: 250px ;
+	height: 250px ;
+	
+}
+
+ .destmenu{
+  position:absolute;
+  text-align:center;
+  left:40%;
+  top:143%;
+}
+
+#dstsmall{
+	position:absolute;
+  	text-align:center;
+  	top: 148% ;
+  	left:5%;
+  	font-size: 15px ;
+}
+
+.destmenu, #dstsmall{
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.box1{
+	background-image: url('nyc.jpg') ;
+	height: 320px ;
+	width:320px ;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.box2{
+	background-image: url('singa1.jpg') ;
+	height: 320px ;
+	width: 320px ;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.box3{
+	background-image: url('rome11.jpg') ;
+	height: 320px ;
+	width: 320px ;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.box4{
+	background-image: url('paris1.jpg') ;
+	height: 320px ;
+	width: 320px ;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.imagebox{
+	display: flex;
+	position: absolute;
+	top: 152% ;
+	padding-left: 5px ;
+}
+.imagebox div{
+	padding-left: 5px ;
+	margin-left : 5px ;
+}
+
+.tnames {
+	position: absolute;
+	top:200% ;
+	font-family: 'Nunito Sans', sans-serif;
+	display: flex ;
+	font-size: 25px ;
+}
+.tnames div{
+	margin-left: 160px ;
+} 
+
+.box1:hover , .box2:hover , .box3:hover , .box4:hover{
+	opacity: 0.5 ;
+	cursor:pointer ;
+}
+
+.info{
+	position: absolute;
+	top: 208% ;
+	display: flex;
+	font-family: 'Roboto', sans-serif;
+
+}
+.info div{
+	margin-left:  10px ;
+	padding-left: 10px ;
+}
+
+.footer{
+	position: absolute;
+	bottom: 2%;
+	font-family: 'Roboto', sans-serif;
+
+}
+span{
+	position: absolute;
+	top: 226% ;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300 ;
+}
+h6:hover{
+	text-decoration: underline;
+	cursor: pointer;
+
+}
